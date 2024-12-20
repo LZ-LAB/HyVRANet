@@ -12,50 +12,52 @@ The version of Python and major packages needed to run the code:
 
 
 
-## How to Run HyMRformer
+## How to Run HyVRANet
 
 #### 1. Mixed Arity Knowledge Hypergraph
 ```
 ## JF17K dataset
-python main-JF.py --dataset JF17K --batch_size 400 --lr 0.00020 --dr 0.999 --input_drop 0.5 --hidden_drop 0.4 --feature_drop 0.2 --dembed 100 --RAD_Size 2 --num_heads 4
+python main-JF.py --dataset JF17K
 
 ## WikiPeople dataset
-python main-WP.py --dataset WikiPeople --batch_size 700 --lr 0.00025 --dr 0.995 --input_drop 0.7 --hidden_drop 0.9 --feature_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 1
+python main-WP.py --dataset WikiPeople
 
 ## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.00010 --dr 0.995 --input_drop 0.6 --hidden_drop 0.5 --feature_drop 0.5 --dembed 400 --RAD_Size 6 --num_heads 4
+python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00012 --dr 0.99 --input_drop 0.6 --hidden_drop 0.3 --feature_drop 0.0 --emb_dim 400 --VarRAC_Size 12 --PosRAC_Size 16
 ```
 
 
 #### 2. Fixed Arity Knowledge Hypergraph
 ```
 ## WikiPeople-3 dataset
-python main-3ary.py --dataset WikiPeople-3 --batch_size 600 --lr 0.00003 --dr 0.995 --input_drop 0.3 --hidden_drop 0.2 --feature_drop 0.2 --dembed 500 --RAD_Size 10 --num_heads 8
+python main-3ary.py --dataset WikiPeople-3
 
 ## JF17K-4 dataset
-python main-4ary.py --dataset JF17K-4 --batch_size 600 --lr 0.00021 --dr 0.995 --input_drop 0.5 --hidden_drop 0.2 --feature_drop 0.5 --dembed 500 --RAD_Size 3 --num_heads 4
+python main-4ary.py --dataset JF17K-4
 
 ## JF17K-5 dataset
-python main-5ary.py --dataset JF17K-5 --batch_size 600 --lr 0.00031 --dr 0.995 --input_drop 0.6 --hidden_drop 0.1 --feature_drop 0.4 --dembed 300 --RAD_Size 7 --num_heads 12
+
+python main-5ary.py --dataset JF17K-5
 
 ## WikiPeople-5 dataset
-python main-5ary.py --dataset WikiPeople-5 --batch_size 700 --lr 0.00056 --dr 0.999 --input_drop 0.6 --hidden_drop 0.5 --feature_drop 0.2 --dembed 200 --RAD_Size 3 --num_heads 4
+python main-5ary.py --dataset WikiPeople-5
 ```
 
 
 #### 2. Binary Knowledge Graph
 ```
 ## FB15K-237 dataset
-python main-2ary.py --dataset FB15K-237 --batch_size 100 --lr 0.00058 --dr 0.99 --input_drop 0.5 --hidden_drop 0.4 --feature_drop 0.6 --dembed 100 --RAD_Size 6 --num_heads 1
+python main-2ary.py --dataset FB15K-237
 
 ## JF17K-2 dataset
-python main-2ary.py --dataset JF17K-2 --batch_size 900 --lr 0.00012 --dr 0.99 --input_drop 0.1 --hidden_drop 0.6 --feature_drop 0.1 --dembed 500 --RAD_Size 6 --num_heads 8
+python main-2ary.py --dataset JF17K-2
 
 ## WikiPeople-2 dataset
-python main-2ary.py --dataset WikiPeople-2 --batch_size 800 --lr 0.00037 --dr 0.995 --input_drop 0.7 --hidden_drop 0.6 --feature_drop 0.5 --dembed 400 --RAD_Size 10 --num_heads 1
+python main-2ary.py --dataset WikiPeople-2
 
 ## FB-AUTO-2 dataset
-python main-2ary.py --dataset FB-AUTO-2 --batch_size 300 --lr 0.00027 --dr 0.999 --input_drop 0.9 --hidden_drop 0.2 --feature_drop 0.7 --dembed 500 --RAD_Size 1 --num_heads 1
+python main-2ary.py --dataset FB-AUTO-2
+
 ```
 
 ## Baseline Models
