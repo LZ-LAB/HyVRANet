@@ -132,7 +132,6 @@ python main.py -dataset *** -lr 0.08 -nr 100 -window_size 2 -batch_size 512 -num
 ### Supplementary Information
 Since the source codes of baseline models HypE, HSimplE, m-TransH, m-CP, m-DitMult, RD-MPNN, and ReAlE support a maximum Arity of 6, none of them can handle the semantically rich WikiPeople dataset.
 We have rationalized their source codes to make them applicable to the WikiPeople dataset.
-A modified version of `Arity>6` with the `HypE/HSimplE` model as the core framework is uploaded in our open source code. The code frameworks of other models (e.g. m-TransH, m-CP, m-DitMult, RD-MPNN, and ReAlE) are based on the HypE model, so they are all the same.
 
 
 
