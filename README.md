@@ -13,52 +13,19 @@ The version of Python and major packages needed to run the code:
 
 
 ## How to Run HyVRANet
-
-#### 1. Mixed Arity Knowledge Hypergraph
 ```
-## JF17K dataset
-python main-JF.py --dataset JF17K
+## WP20K dataset
+python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00041 --dr 0.99 --input_drop 0.8 --hidden_drop 0.5 --feature_drop 0.0 --VarRAC_Size 6 --PosRAC_Size 10
 
-## WikiPeople dataset
-python main-WP.py --dataset WikiPeople
+## WP40K dataset
+python main-WP40K.py --dataset WP40K
 
 ## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00012 --dr 0.99 --input_drop 0.6 --hidden_drop 0.3 --feature_drop 0.0 --emb_dim 400 --VarRAC_Size 12 --PosRAC_Size 16
+python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00012 --dr 0.99 --input_drop 0.6 --hidden_drop 0.3 --feature_drop 0.0 --VarRAC_Size 12 --PosRAC_Size 16
 ```
 
 
-#### 2. Fixed Arity Knowledge Hypergraph
-```
-## WikiPeople-3 dataset
-python main-3ary.py --dataset WikiPeople-3
 
-## JF17K-4 dataset
-python main-4ary.py --dataset JF17K-4
-
-## JF17K-5 dataset
-
-python main-5ary.py --dataset JF17K-5
-
-## WikiPeople-5 dataset
-python main-5ary.py --dataset WikiPeople-5
-```
-
-
-#### 2. Binary Knowledge Graph
-```
-## FB15K-237 dataset
-python main-2ary.py --dataset FB15K-237
-
-## JF17K-2 dataset
-python main-2ary.py --dataset JF17K-2
-
-## WikiPeople-2 dataset
-python main-2ary.py --dataset WikiPeople-2
-
-## FB-AUTO-2 dataset
-python main-2ary.py --dataset FB-AUTO-2
-
-```
 
 ## Baseline Models
 We are very grateful for all open-source baseline models:
