@@ -21,7 +21,7 @@ python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00041 --dr 0.99 --i
 python main-WP40K.py --dataset WP40K
 
 ## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00012 --dr 0.99 --input_drop 0.6 --hidden_drop 0.3 --feature_drop 0.0 --VarRAC_Size 12 --PosRAC_Size 16
+python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.00003 --dr 0.999 --input_drop 0.5 --hidden_drop 0.1 --feature_drop 0.2 --VarRAC_Size 16 --PosRAC_Size 12
 ```
 
 
