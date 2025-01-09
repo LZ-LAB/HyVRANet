@@ -15,7 +15,7 @@ The version of Python and major packages needed to run the code:
 ## How to Run HyVRANet
 ```
 ## WP20K dataset
-python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00041 --dr 0.99 --input_drop 0.8 --hidden_drop 0.5 --feature_drop 0.0 --VarRAC_Size 6 --PosRAC_Size 10
+python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00071 --dr 0.995 --input_drop 0.9 --hidden_drop 0.1 --feature_drop 0.2 --VarRAC_Size 6 --PosRAC_Size 18
 
 ## WP40K dataset
 python main-WP40K.py --dataset WP40K
