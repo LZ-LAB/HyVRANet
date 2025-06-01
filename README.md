@@ -12,6 +12,21 @@ The version of Python and major packages needed to run the code:
 
 
 
+
+## How to Run HyVRANet-GAN
+
+```
+## WP20K dataset
+python main-WP20K.py --dataset WP20K
+
+## WP40K dataset
+python main-WP40K.py --dataset WP40K
+
+## FB-AUTO dataset
+python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.00013 --dr 0.99 --input_drop 0.6 --hidden_drop 0.1 --feature_drop 0.2 --VarRAC_Size 12 --PosRAC_Size 16 --gen_lr 0.0001 --dis_lr 0.0001 --gan_weight 0.6
+```
+
+
 ## How to Run HyVRANet
 ```
 ## WP20K dataset
