@@ -29,7 +29,7 @@ python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00022 --dr 0.995 --
 python main-WP3.py --dataset WikiPeople-3 --batch_size 900 --lr 0.00012 --dr 0.99 --input_drop 0.3 --hidden_drop 0.1 --feature_drop 0.1 --VarRAC_Size 18 --PosRAC_Size 18 --gen_lr 0.0005 --dis_lr 0.0002
 
 ## JF17K-4 dataset
-python main-JF4.py --dataset JF17K-4 --batch_size 900 --lr 0.00027 --dr 0.99 --input_drop 0.3 --hidden_drop 0.4 --feature_drop 0.3 --VarRAC_Size 2 --PosRAC_Size 20 --gen_lr 0.0003 --dis_lr 0.0002
+python main-JF4.py --dataset JF17K-4 --batch_size 800 --lr 0.00012 --dr 0.99 --input_drop 0.5 --hidden_drop 0 --feature_drop 0.1 --VarRAC_Size 13 --PosRAC_Size 8 --gen_lr 0.0003 --dis_lr 0.0003
 ```
 
 
