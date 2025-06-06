@@ -17,7 +17,7 @@ The version of Python and major packages needed to run the code:
 
 ```
 ## WP20K dataset
-python main-WP20K.py --dataset WP20K
+python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00007 --dr 0.99 --input_drop 0.7 --hidden_drop 0.4 --feature_drop 0.2 --VarRAC_Size 11 --PosRAC_Size 20 --gen_lr 0.0002 --dis_lr 0.0005
 
 ## WP40K dataset
 python main-WP40K.py --dataset WP40K
