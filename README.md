@@ -13,7 +13,7 @@ The version of Python and major packages needed to run the code:
 
 
 
-## How to Run HyVRANet-GAN
+## How to Run HyVRANet
 
 ```
 ## WP20K dataset
@@ -40,17 +40,6 @@ python main-WP40K-5.py --dataset WP40K-5 --batch_size 800 --lr 0.00022 --dr 0.99
 ```
 
 
-## How to Run HyVRANet
-```
-## WP20K dataset
-python main-WP20K.py --dataset WP20K --batch_size 300 --lr 0.00071 --dr 0.995 --input_drop 0.9 --hidden_drop 0.1 --feature_drop 0.2 --VarRAC_Size 6 --PosRAC_Size 18
-
-## WP40K dataset
-python main-WP40K.py --dataset WP40K --batch_size 400 --lr 0.00036 --dr 0.990 --input_drop 0.7 --hidden_drop 0.4 --feature_drop 0.3 --VarRAC_Size 12 --PosRAC_Size 18
-
-## FB-AUTO dataset
-python main-FB.py --dataset FB-AUTO --batch_size 800 --lr 0.00003 --dr 0.999 --input_drop 0.5 --hidden_drop 0.1 --feature_drop 0.2 --VarRAC_Size 16 --PosRAC_Size 12
-```
 
 
 
