@@ -20,7 +20,7 @@ The version of Python and major packages needed to run the code:
 python main-WP20K.py --dataset WP20K --batch_size 400 --lr 0.00092 --dr 0.99 --input_drop 0.8 --hidden_drop 0.4 --feature_drop 0 --VarRAC_Size 5 --PosRAC_Size 18 --gen_lr 0.0001 --dis_lr 0.0001
 
 ## WP40K dataset
-python main-WP40K.py --dataset WP40K
+python main-WP40K.py --dataset WP40K --batch_size 400 --lr 0.00030 --dr 0.995 --input_drop 0.7 --hidden_drop 0.2 --feature_drop 0.3 --VarRAC_Size 7 --PosRAC_Size 15 --gen_lr 0.0004 --dis_lr 0.0003
 
 ## FB-AUTO dataset
 python main-FB.py --dataset FB-AUTO --batch_size 1000 --lr 0.00022 --dr 0.995 --input_drop 0.7 --hidden_drop 0.5 --feature_drop 0.2 --VarRAC_Size 2 --PosRAC_Size 16 --gen_lr 0.0005 --dis_lr 0.0001
