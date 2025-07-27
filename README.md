@@ -1,4 +1,4 @@
-This paper has been submitted to the KDD 2026.
+This paper has been submitted to KDD 2026.
 
 All local experiments are obtained on 4*NVIDIA GeForce RTX 3090 GPUs and PyTorch 1.12.0.
 
