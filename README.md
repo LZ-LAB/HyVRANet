@@ -1,4 +1,4 @@
-This paper has been submitted to KDD 2026.
+This paper has been submitted to SIGIR 2026.
 
 All local experiments are obtained on 4*NVIDIA GeForce RTX 3090 GPUs and PyTorch 1.12.0.
 
@@ -41,5 +41,6 @@ python main-WP3.py --dataset WikiPeople-3 --batch_size 900 --lr 0.00012 --dr 0.9
 python main-JF4.py --dataset JF17K-4 --batch_size 800 --lr 0.00012 --dr 0.99 --input_drop 0.5 --hidden_drop 0 --feature_drop 0.1 --VarRAC_Size 13 --PosRAC_Size 8 --gen_lr 0.0003 --dis_lr 0.0003
 
 ```
+
 
 
